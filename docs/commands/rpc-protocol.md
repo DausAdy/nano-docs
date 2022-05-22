@@ -1,7 +1,7 @@
 title: RPC Protocol
 description: Reference for the RPC commands available for the Nano node
 
-# RPC Protocol
+#  Protocol
 
 The RPC protocol accepts JSON HTTP POST requests. The following are RPC commands along with the responses that are expected. This page is split into the following sections:
 
@@ -28,7 +28,7 @@ Returns how many RAW is owned and how many have not yet been received by **accou
 ```json 
 {
   "action": "account_balance",
-  "account": "nano_3e3j5tkog48pnny9dmfzj1r16pg8t1e76dz5tmac6iq689wyjfpi00000000"
+  "account": "nano_1j1xkj918sp4rjrdpbf4u56rrrgoz6j3acsf1gyjxtz7fbafp6pawia49t9"
 }
 ```
 
